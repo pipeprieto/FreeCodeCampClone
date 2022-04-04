@@ -1,0 +1,44 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+  height: 368px;
+  background-color: #fff;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+  margin: 40px;
+}
+.contenedor .content {
+  flex: 1;
+  margin: 5px;
+}
+.contenedor .content img {
+  width: auto;
+  height: 100%;
+}
+.contenedor .box1 {
+  width: 360px;
+  height: 360px;
+}
+.contenedor .box2 {
+  flex: 3;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  font-weight: 400;
+  font-family: Lato, sans-serif;
+  line-height: 1.5rem;
+}
+.contenedor .box2 .nombre-testimonio {
+  font-size: 1.3rem;
+}
+.contenedor .box2 .cargo-testimonio {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+.testimonio {
+  text-align: justify;
+  font-size: 1.1rem;
+}
